@@ -1,1 +1,1 @@
-# os-labs
+# C++ Operation System Laboratory works
