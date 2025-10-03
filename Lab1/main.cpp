@@ -39,7 +39,7 @@ int main() {
         dup2(pipe1[1], STDOUT_FILENO);
         close(pipe1[1]);
 
-        execl("./build/child", "child", nullptr);
+        execl("./child", "child", nullptr);
         std::cerr << "Failed to execute './child'" << std::endl;
         exit(1);
 
