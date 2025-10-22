@@ -18,6 +18,7 @@ int main() {
     }
 
     pid_t pid = fork();
+    
     if (pid < 0) {
         std::cerr << "Failed to create child process" << std::endl;
         return 1;
