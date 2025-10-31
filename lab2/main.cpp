@@ -1,12 +1,9 @@
-#include <cmath>
 #include <cstdlib>
 #include <iostream>
-#include <mutex>
 #include <ostream>
 #include <thread>
 #include <vector>
 
-std::mutex mtx;
 int MAX_THREADS = 2;
 
 void eliminate(std::vector<std::vector<double>>& A, std::vector<double>& b, int pivotRow,
