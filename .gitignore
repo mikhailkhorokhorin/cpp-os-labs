@@ -2,3 +2,4 @@
 .vscode
 .devcontainer
 build
+.cache

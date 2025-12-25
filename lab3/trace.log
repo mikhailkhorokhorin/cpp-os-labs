@@ -1,5 +1,5 @@
 execve("./main", ["./main"], 0x7ffd08f1b510 /* 33 vars */) = 0
-brk(NULL)                               = 0x590c4d966000
+brk(NULL)                               = 0x590c4d966000                           // куча
 access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
 fstat(3, {st_mode=S_IFREG|0644, st_size=21784, ...}) = 0
